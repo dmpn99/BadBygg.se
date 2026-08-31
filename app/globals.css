@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  /* Accentfärg extraherad från diamanten i Bad & Bygg-loggan */
+  --color-brand: #f24c00;
+  --color-brand-dark: #cf4100;
+
+  --font-sans: var(--font-geist-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
